@@ -149,10 +149,22 @@
         font-size: 16px;
     }
 
+    .card-desc {
+        font-size: 12px;
+    }
+
     .card-text {
         margin-top: 8px;
         font-size: 12px;
         line-height: 1.5;
+    }
+
+    .hover-text {
+        font-size: 14px;
+    }
+
+    .card-hover {
+        top: 30px;
     }
 
 
@@ -219,20 +231,12 @@
     }
 
     .case-control {
-        top: 170px;
+        width: 540px;
     }
 
     .case-btn {
         width: 50px;
         height: 50px;
-    }
-
-    .case-btn.prev {
-        margin-left: 220px;
-    }
-
-    .case-btn.next {
-        margin-right: 220px;
     }
 
     .page-number {
@@ -357,23 +361,19 @@
     }
 
     .gallery-track {
-        gap: 20px;
-        margin-left: 155px;
+        gap: 0;
     }
 
     .gallery-item {
-        width: 500px;
-        height: 300px;
+        flex: 0 0 100%;
+        width: 100%;
+        transform: scale(1);
     }
 
     .gallery-item.active {
-        width: 714px;
-        height: 428px;
+        transform: scale(1);
     }
 
-    .gallery-pagination {
-        display: none;
-    }
 
     /* ===========================
     Section 09

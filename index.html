@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/media.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -129,6 +130,7 @@
 
       <div class="container sec-3-container">
 
+        <!-- Title -->
         <div class="text-content">
 
           <h2 class="sec-3-title">
@@ -142,94 +144,108 @@
 
         </div>
 
+        <!-- Card -->
         <div class="card-wrap">
 
+          <!-- Card 01 -->
           <article class="sec-03-card">
-
             <img class="card-img" src="./assets/images/img_데이터기반관리.jpg" alt="데이터 기반 관리">
+            <div class="card-overlay"></div>
+            <div class="card-hover">
+              <p class="hover-text">
+                진료 기록과 건강 데이터를<br>
+                종합적으로 분석하여<br>
+                반려동물의 상태를 객관적으로 확인하고<br>
+                더 정확한 진료를 지원합니다.
+              </p>
+            </div>
 
-            <div class="card-text-wrap">
-
+            <div class="card-content">
               <img class="card-icon" src="./assets/icons/icon_데이터기반관리.svg" alt="">
-
               <h3 class="card-title">
                 데이터 기반 관리
               </h3>
-
-              <p class="card-text">
+              <p class="card-desc">
                 건강 데이터를 분석하여<br>
                 더 정확한 진료를 지원합니다.
               </p>
-
             </div>
-
           </article>
 
+          <!-- Card 02 -->
           <article class="sec-03-card">
-
             <img class="card-img" src="./assets/images/img_AI헬스케어바이오칩.jpg" alt="AI 헬스케어 바이오칩">
+            <div class="card-overlay"></div>
+            <div class="card-hover">
+              <p class="hover-text">
+                AI 바이오칩이 활동량, 수면, 식사 등<br>
+                일상의 건강 데이터를 분석하여<br>
+                이상 신호를 조기에 감지합니다.
+              </p>
+            </div>
 
-            <div class="card-text-wrap">
-
+            <div class="card-content">
               <img class="card-icon" src="./assets/icons/icon_AI헬스케어바이오칩.svg" alt="">
-
               <h3 class="card-title">
                 AI 헬스케어 바이오칩
               </h3>
-
-              <p class="card-text">
+              <p class="card-desc">
                 AI 바이오칩이 일상의 건강 변화를 분석하고<br>
                 이상 신호를 조기에 감지합니다.
               </p>
-
             </div>
-
           </article>
 
+          <!-- Card 03 -->
           <article class="sec-03-card">
-
             <img class="card-img" src="./assets/images/img_만성질환집중관리.jpg" alt="만성질환 집중 관리">
+            <div class="card-overlay"></div>
+            <div class="card-hover">
+              <p class="hover-text">
+                신장질환, 심장질환, 당뇨 등<br>
+                지속적인 관리가 필요한 질환을<br>
+                데이터 기반으로<br>
+                체계적으로 관리합니다.
+              </p>
+            </div>
 
-            <div class="card-text-wrap">
-
+            <div class="card-content">
               <img class="card-icon" src="./assets/icons/icon_만성질환집중관리.svg" alt="">
-
               <h3 class="card-title">
                 만성질환 집중 관리
               </h3>
-
-              <p class="card-text">
+              <p class="card-desc">
                 지속적인 건강 분석으로<br>
                 만성질환을 체계적으로 관리합니다.
               </p>
-
             </div>
-
           </article>
 
+          <!-- Card 04 -->
           <article class="sec-03-card">
-
             <img class="card-img" src="./assets/images/img_지속모니터링시스템.jpg" alt="지속 모니터링 시스템">
+            <div class="card-overlay"></div>
+            <div class="card-hover">
+              <p class="hover-text">
+                진료 이후에도 건강 데이터를<br>
+                지속적으로 확인하여<br>
+                건강 변화에 빠르게 대응하고<br>
+                맞춤형 건강 관리를 이어갑니다.
+              </p>
+            </div>
 
-            <div class="card-text-wrap">
-
+            <div class="card-content">
               <img class="card-icon" src="./assets/icons/icon_지속모니터링시스템.png" alt="">
-
               <h3 class="card-title">
                 지속 모니터링 시스템
               </h3>
-
-              <p class="card-text">
+              <p class="card-desc">
                 AI 모니터링으로<br>
                 건강을 지속적으로 관리합니다.
               </p>
-
             </div>
-
           </article>
-
         </div>
-
       </div>
 
     </section>
@@ -256,191 +272,196 @@
 
       <div class="case-slider">
 
-        <div class="case-wrap">
+        <div class="case-viewport">
 
-          <!-- CASE 01 -->
-          <div class="sec-4-case">
-            <img class="case-img" src="./assets/images/진료사례_리트리버.png" alt="case01">
+          <div class="case-wrap">
 
-            <div class="case-text-wrap">
-              <p class="case-type">초기 발견</p>
+            <!-- CASE 01 -->
+            <div class="sec-4-case">
+              <img class="case-img" src="./assets/images/진료사례_리트리버.png" alt="case01">
 
-              <h3 class="case-title">
-                활동량 감소로 발견한 초기 심장질환<br>
-                반려견 | 골든리트리버 · 8세
-              </h3>
+              <div class="case-text-wrap">
+                <p class="case-type">초기 발견</p>
 
-              <p class="case-desc">
-                AI가 최근 활동량 감소를 감지하여 정밀 검사를 진행했습니다. 초기 심장질환을 조기에 발견하고 맞춤형 치료와 생활 관리를 시작해 건강을 안정적으로 유지하고 있습니다.
-              </p>
+                <h3 class="case-title">
+                  활동량 감소로 발견한 초기 심장질환<br>
+                  반려견 | 골든리트리버 · 8세
+                </h3>
+
+                <p class="case-desc">
+                  AI가 최근 활동량 감소를 감지하여 정밀 검사를 진행했습니다. 초기 심장질환을 조기에 발견하고 맞춤형 치료와 생활 관리를 시작해 건강을 안정적으로 유지하고 있습니다.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <!-- CASE 02 -->
-          <div class="sec-4-case">
-            <img class="case-img" src="./assets/images/진료사례_코리안숏헤어.png" alt="case02">
+            <!-- CASE 02 -->
+            <div class="sec-4-case">
+              <img class="case-img" src="./assets/images/진료사례_코리안숏헤어.png" alt="case02">
 
-            <div class="case-text-wrap">
-              <p class="case-type">초기 발견</p>
+              <div class="case-text-wrap">
+                <p class="case-type">초기 발견</p>
 
-              <h3 class="case-title">
-                식사량 변화로 발견한 초기 신장질환<br>
-                반려묘 | 코리안숏헤어 · 10세
-              </h3>
+                <h3 class="case-title">
+                  식사량 변화로 발견한 초기 신장질환<br>
+                  반려묘 | 코리안숏헤어 · 10세
+                </h3>
 
-              <p class="case-desc">
-                식사량 감소 패턴을 AI가 분석하여 혈액검사를 진행했습니다. 초기 신장질환을 조기에 발견하고 식단 관리와 치료를 시작했습니다.
-              </p>
+                <p class="case-desc">
+                  식사량 감소 패턴을 AI가 분석하여 혈액검사를 진행했습니다. 초기 신장질환을 조기에 발견하고 식단 관리와 치료를 시작했습니다.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <!-- CASE 03 -->
-          <div class="sec-4-case">
-            <img class="case-img" src="./assets/images/진료사례_브리티시숏헤어.png" alt="case03">
+            <!-- CASE 03 -->
+            <div class="sec-4-case">
+              <img class="case-img" src="./assets/images/진료사례_브리티시숏헤어.png" alt="case03">
 
-            <div class="case-text-wrap">
-              <p class="case-type">초기 발견</p>
+              <div class="case-text-wrap">
+                <p class="case-type">초기 발견</p>
 
-              <h3 class="case-title">
-                음수량 감소로 발견한 초기 요로 질환<br>
-                반려묘 | 브리티시 숏헤어 · 7세
-              </h3>
+                <h3 class="case-title">
+                  음수량 감소로 발견한 초기 요로 질환<br>
+                  반려묘 | 브리티시 숏헤어 · 7세
+                </h3>
 
-              <p class="case-desc">
-                AI가 음수량과 배뇨 패턴 변화를 감지했습니다. 정밀 검사를 통해 초기 요로 질환을 발견하고 조기 치료를 시작했습니다.
-              </p>
+                <p class="case-desc">
+                  AI가 음수량과 배뇨 패턴 변화를 감지했습니다. 정밀 검사를 통해 초기 요로 질환을 발견하고 조기 치료를 시작했습니다.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <!-- CASE 04 -->
-          <div class="sec-4-case">
-            <img class="case-img" src="./assets/images/진료사례_웰시코기.png" alt="case04">
+            <!-- CASE 04 -->
+            <div class="sec-4-case">
+              <img class="case-img" src="./assets/images/진료사례_웰시코기.png" alt="case04">
 
-            <div class="case-text-wrap">
-              <p class="case-type">예방 중심</p>
+              <div class="case-text-wrap">
+                <p class="case-type">예방 중심</p>
 
-              <h3 class="case-title">
-                체중 증가를 예방한 건강 관리<br>
-                반려견 | 웰시코기 · 5세
-              </h3>
+                <h3 class="case-title">
+                  체중 증가를 예방한 건강 관리<br>
+                  반려견 | 웰시코기 · 5세
+                </h3>
 
-              <p class="case-desc">
-                체중 증가와 활동량 감소를 AI가 지속적으로 분석하여 비만 위험을 조기에 확인하고 건강 관리를 진행했습니다.
-              </p>
+                <p class="case-desc">
+                  체중 증가와 활동량 감소를 AI가 지속적으로 분석하여 비만 위험을 조기에 확인하고 건강 관리를 진행했습니다.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <!-- CASE 05 -->
-          <div class="sec-4-case">
-            <img class="case-img" src="./assets/images/진료사례_러시안블루.png" alt="case05">
+            <!-- CASE 05 -->
+            <div class="sec-4-case active">
+              <img class="case-img" src="./assets/images/진료사례_러시안블루.png" alt="case05">
 
-            <div class="case-text-wrap">
-              <p class="case-type">예방 중심</p>
+              <div class="case-text-wrap">
+                <p class="case-type">예방 중심</p>
 
-              <h3 class="case-title">
-                스트레스 신호를 조기에 확인한 사례<br>
-                반려묘 | 러시안블루 · 4세
-              </h3>
+                <h3 class="case-title">
+                  스트레스 신호를 조기에 확인한 사례<br>
+                  반려묘 | 러시안블루 · 4세
+                </h3>
 
-              <p class="case-desc">
-                AI가 수면 시간과 활동 패턴 변화를 분석하여 스트레스 증가를 조기에 감지하고 생활 환경을 개선했습니다.
-              </p>
+                <p class="case-desc">
+                  AI가 수면 시간과 활동 패턴 변화를 분석하여 스트레스 증가를 조기에 감지하고 생활 환경을 개선했습니다.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <!-- CASE 06 -->
-          <div class="sec-4-case">
-            <img class="case-img" src="./assets/images/진료사례_시바.png" alt="case06">
+            <!-- CASE 06 -->
+            <div class="sec-4-case">
+              <img class="case-img" src="./assets/images/진료사례_시바.png" alt="case06">
 
-            <div class="case-text-wrap">
-              <p class="case-type">예방 중심</p>
+              <div class="case-text-wrap">
+                <p class="case-type">예방 중심</p>
 
-              <h3 class="case-title">
-                수면 패턴 변화로 발견한 갑상선 이상<br>
-                반려견 | 시바견 · 9세
-              </h3>
+                <h3 class="case-title">
+                  수면 패턴 변화로 발견한 갑상선 이상<br>
+                  반려견 | 시바견 · 9세
+                </h3>
 
-              <p class="case-desc">
-                AI가 수면 시간 증가와 활동량 감소를 분석하여 갑상선 기능 이상을 조기에 발견했습니다.
-              </p>
+                <p class="case-desc">
+                  AI가 수면 시간 증가와 활동량 감소를 분석하여 갑상선 기능 이상을 조기에 발견했습니다.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <!-- CASE 07 -->
-          <div class="sec-4-case">
-            <img class="case-img" src="./assets/images/진료사례_말티즈.png" alt="case07">
+            <!-- CASE 07 -->
+            <div class="sec-4-case">
+              <img class="case-img" src="./assets/images/진료사례_말티즈.png" alt="case07">
 
-            <div class="case-text-wrap">
-              <p class="case-type">만성 질환</p>
+              <div class="case-text-wrap">
+                <p class="case-type">만성 질환</p>
 
-              <h3 class="case-title">
-                심장질환의 진행을 꾸준히 관리<br>
-                반려견 | 말티즈 · 11세
-              </h3>
+                <h3 class="case-title">
+                  심장질환의 진행을 꾸준히 관리<br>
+                  반려견 | 말티즈 · 11세
+                </h3>
 
-              <p class="case-desc">
-                AI가 심박수와 활동량을 지속적으로 분석하며 변화가 감지될 때마다 진료 계획을 조정했습니다.
-              </p>
+                <p class="case-desc">
+                  AI가 심박수와 활동량을 지속적으로 분석하며 변화가 감지될 때마다 진료 계획을 조정했습니다.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <!-- CASE 08 -->
-          <div class="sec-4-case">
-            <img class="case-img" src="./assets/images/진료사례_푸들.png" alt="case08">
+            <!-- CASE 08 -->
+            <div class="sec-4-case">
+              <img class="case-img" src="./assets/images/진료사례_푸들.png" alt="case08">
 
-            <div class="case-text-wrap">
-              <p class="case-type">만성 질환</p>
+              <div class="case-text-wrap">
+                <p class="case-type">만성 질환</p>
 
-              <h3 class="case-title">
-                당뇨 관리의 새로운 기준<br>
-                반려견 | 푸들 · 9세
-              </h3>
+                <h3 class="case-title">
+                  당뇨 관리의 새로운 기준<br>
+                  반려견 | 푸들 · 9세
+                </h3>
 
-              <p class="case-desc">
-                식사량과 활동 데이터를 AI가 지속적으로 분석하여 혈당 변화를 안정적으로 관리하고 있습니다.
-              </p>
+                <p class="case-desc">
+                  식사량과 활동 데이터를 AI가 지속적으로 분석하여 혈당 변화를 안정적으로 관리하고 있습니다.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <!-- CASE 09 -->
-          <div class="sec-4-case">
-            <img class="case-img" src="./assets/images/진료사례_프렌치불독.png" alt="case09">
+            <!-- CASE 09 -->
+            <div class="sec-4-case">
+              <img class="case-img" src="./assets/images/진료사례_프렌치불독.png" alt="case09">
 
-            <div class="case-text-wrap">
-              <p class="case-type">만성 질환</p>
+              <div class="case-text-wrap">
+                <p class="case-type">만성 질환</p>
 
-              <h3 class="case-title">
-                호흡 패턴 분석으로 관리한 호흡기 질환<br>
-                반려견 | 프렌치 불독 · 6세
-              </h3>
+                <h3 class="case-title">
+                  호흡 패턴 분석으로 관리한 호흡기 질환<br>
+                  반려견 | 프렌치 불독 · 6세
+                </h3>
 
-              <p class="case-desc">
-                AI가 휴식 중 호흡수와 호흡 패턴을 지속적으로 분석하여 건강 상태를 안정적으로 유지하고 있습니다.
-              </p>
+                <p class="case-desc">
+                  AI가 휴식 중 호흡수와 호흡 패턴을 지속적으로 분석하여 건강 상태를 안정적으로 유지하고 있습니다.
+                </p>
+              </div>
             </div>
+
           </div>
 
         </div>
 
         <div class="case-control">
           <button class="case-btn prev" type="button">
-            <img src="./assets/icons/icon_l_arrow.svg" alt="prev">
+            <img src="./assets/icons/icon_l_arrow.svg" alt="Previous">
           </button>
 
           <button class="case-btn next" type="button">
-            <img src="./assets/icons/icon_r_arrow.svg" alt="next">
+            <img src="./assets/icons/icon_r_arrow.svg" alt="Next">
           </button>
         </div>
 
       </div>
 
-      <!-- Pagination -->
       <div class="page-number">
         <span class="page-current">5</span>
         <span class="page-divider">/</span>
         <span class="page-total">9</span>
       </div>
+
     </section>
+
 
     <!-- section 05 -->
     <section id="Doctor" class="sec-5">
@@ -503,146 +524,241 @@
         </p>
       </div>
 
-      <div class="step-wrap">
-        <!-- STEP 01 -->
-        <div class="step-card">
-          <img class="step-img" src="./assets/images/진료과정_1.png" alt="상담 및 건강 상태 확인">
-          <div class="step-text">
-            <h3 class="step-title">
-              1. 상담 및 건강 상태 확인
-            </h3>
-            <p class="step-desc">
-              보호자의 상담 내용을 바탕으로<br>
-              진료 방향을 설정합니다
-            </p>
+      <div class="step-slider">
+
+        <div class="step-wrap">
+
+          <!-- STEP 01 -->
+          <div class="step-card">
+            <img class="step-img" src="./assets/images/진료과정_1.png" alt="상담 및 건강 상태 확인">
+            <div class="step-text">
+              <h3 class="step-title">
+                1. 상담 및 건강 상태 확인
+              </h3>
+              <p class="step-desc">
+                보호자의 상담 내용을 바탕으로<br>
+                진료 방향을 설정합니다.
+              </p>
+            </div>
           </div>
-        </div>
-        <!-- STEP 02 -->
-        <div class="step-card">
-          <img class="step-img" src="./assets/images/진료과정_2.png" alt="바이오칩 데이터 수집">
-          <div class="step-text">
-            <h3 class="step-title">
-              2. 바이오칩 데이터 수집
-            </h3>
-            <p class="step-desc">
-              생체 데이터를 수집하여<br>
-              건강 상태를 확인합니다
-            </p>
+
+          <!-- STEP 02 -->
+          <div class="step-card">
+            <img class="step-img" src="./assets/images/진료과정_2.png" alt="바이오칩 데이터 수집">
+            <div class="step-text">
+              <h3 class="step-title">
+                2. 바이오칩 데이터 수집
+              </h3>
+              <p class="step-desc">
+                생체 데이터를 수집하여<br>
+                건강 상태를 확인합니다.
+              </p>
+            </div>
           </div>
-        </div>
-        <!-- STEP 03 -->
-        <div class="step-card">
-          <img class="step-img" src="./assets/images/진료과정_3.png" alt="AI 건강 데이터 분석">
-          <div class="step-text">
-            <h3 class="step-title">
-              3. AI 건강 데이터 분석
-            </h3>
-            <p class="step-desc">
-              AI가 데이터를 분석하여<br>
-              건강 변화 신호를 확인합니다
-            </p>
+
+          <!-- STEP 03 -->
+          <div class="step-card">
+            <img class="step-img" src="./assets/images/진료과정_3.png" alt="AI 건강 데이터 분석">
+            <div class="step-text">
+              <h3 class="step-title">
+                3. AI 건강 데이터 분석
+              </h3>
+              <p class="step-desc">
+                AI가 데이터를 분석하여<br>
+                건강 변화 신호를 확인합니다.
+              </p>
+            </div>
           </div>
-        </div>
-        <!-- STEP 04 -->
-        <div class="step-card">
-          <img class="step-img" src="./assets/images/진료과정_4.png" alt="전문 의료진 진단">
-          <div class="step-text">
-            <h3 class="step-title">
-              4. 전문 의료진 진단
-            </h3>
-            <p class="step-desc">
-              AI 분석 결과와 임상 경험을<br>
-              바탕으로 진단을 진행합니다
-            </p>
+
+          <!-- STEP 04 -->
+          <div class="step-card">
+            <img class="step-img" src="./assets/images/진료과정_4.png" alt="전문 의료진 진단">
+            <div class="step-text">
+              <h3 class="step-title">
+                4. 전문 의료진 진단
+              </h3>
+              <p class="step-desc">
+                AI 분석 결과와 임상 경험을<br>
+                바탕으로 진단을 진행합니다.
+              </p>
+            </div>
           </div>
-        </div>
-        <!-- STEP 05 -->
-        <div class="step-card">
-          <img class="step-img" src="./assets/images/진료과정_5.png" alt="맞춤형 처방 및 건강 관리">
-          <div class="step-text">
-            <h3 class="step-title">
-              5. 맞춤형 처방 및 건강 관리
-            </h3>
-            <p class="step-desc">
-              반려동물의 상태에 맞는<br>
-              치료 및 관리 계획을 제공합니다
-            </p>
+
+          <!-- STEP 05 -->
+          <div class="step-card">
+            <img class="step-img" src="./assets/images/진료과정_5.png" alt="맞춤형 처방 및 건강 관리">
+            <div class="step-text">
+              <h3 class="step-title">
+                5. 맞춤형 처방 및 건강 관리
+              </h3>
+              <p class="step-desc">
+                반려동물의 상태에 맞는<br>
+                치료 및 관리 계획을 제공합니다.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-
     </section>
 
 
     <!-- section 07 -->
     <section class="sec-7">
+
       <div class="container sec-7-container">
+
+        <!-- Title -->
         <div class="sec-7-title-wrap">
+
           <h3 class="title-7-color">
             MEDICAL ENVIRONMENT
           </h3>
+
           <h2 class="sec-7-title">
             진료 환경
           </h2>
+
           <p class="sec-7-desc">
             AI가 수집한 건강 데이터와 의료진의 전문성을 결합하여<br>
             더 체계적이고 효율적인 진료 프로세스를 제공합니다.
           </p>
+
         </div>
 
-        <!-- Slider -->
+        <!-- Gallery -->
         <div class="gallery">
-          <div class="gallery-track">
-            <!-- 1 -->
-            <div class="gallery-item active">
-              <img src="./assets/images/진료실.jpeg" alt="진료실">
-              <span class="gallery-name">
-                진료실
-              </span>
+
+          <div class="gallery-viewport">
+
+            <div class="gallery-track">
+
+              <!-- 01 -->
+              <div class="gallery-item active">
+
+                <img src="./assets/images/진료실.jpeg" alt="진료실">
+
+                <div class="gallery-overlay">
+
+                  <h3 class="gallery-name">
+                    진료실
+                  </h3>
+
+                </div>
+
+              </div>
+
+              <!-- 02 -->
+              <div class="gallery-item">
+
+                <img src="./assets/images/정밀_검사실.jpeg" alt="정밀 검사실">
+
+                <div class="gallery-overlay">
+
+                  <h3 class="gallery-name">
+                    정밀 검사실
+                  </h3>
+
+                </div>
+
+              </div>
+
+              <!-- 03 -->
+              <div class="gallery-item">
+
+                <img src="./assets/images/첨단_영상_진단실.jpeg" alt="첨단 영상 진단실">
+
+                <div class="gallery-overlay">
+
+                  <h3 class="gallery-name">
+                    첨단 영상 진단실
+                  </h3>
+
+                </div>
+
+              </div>
+
+              <!-- 04 -->
+              <div class="gallery-item">
+
+                <img src="./assets/images/수술실.jpeg" alt="수술실">
+
+                <div class="gallery-overlay">
+
+                  <h3 class="gallery-name">
+                    수술실
+                  </h3>
+
+                </div>
+
+              </div>
+
+              <!-- 05 -->
+              <div class="gallery-item">
+
+                <img src="./assets/images/입원실.jpeg" alt="입원실">
+
+                <div class="gallery-overlay">
+
+                  <h3 class="gallery-name">
+                    입원실
+                  </h3>
+
+                </div>
+
+              </div>
+
+              <!-- 06 -->
+              <div class="gallery-item">
+
+                <img src="./assets/images/AI_헬스케어_센터.jpeg" alt="AI 헬스케어 센터">
+
+                <div class="gallery-overlay">
+
+                  <h3 class="gallery-name">
+                    AI 헬스케어 센터
+                  </h3>
+
+                </div>
+
+              </div>
+
             </div>
-            <!-- 2 -->
-            <div class="gallery-item">
-              <img src="./assets/images/정밀_검사실.jpeg" alt="정밀 검사실">
-              <span class="gallery-name">
-                정밀 검사실
-              </span>
-            </div>
-            <!-- 3 -->
-            <div class="gallery-item">
-              <img src="./assets/images/첨단_영상_진단실.jpeg" alt="첨단 영상 진단실">
-              <span class="gallery-name">
-                첨단 영상 진단실
-              </span>
-            </div>
-            <!-- 4 -->
-            <div class="gallery-item">
-              <img src="./assets/images/수술실.jpeg" alt="수술실">
-              <span class="gallery-name">
-                수술실
-              </span>
-            </div>
-            <!-- 5 -->
-            <div class="gallery-item">
-              <img src="./assets/images/입원실.jpeg" alt="입원실">
-              <span class="gallery-name">
-                입원실
-              </span>
-            </div>
-            <!-- 6 -->
-            <div class="gallery-item">
-              <img src="./assets/images/AI_헬스케어_센터.jpeg" alt="AI 헬스케어 센터">
-              <span class="gallery-name">
-                AI 헬스케어 센터
-              </span>
-            </div>
+
           </div>
+
         </div>
+
+        <!-- Pagination -->
         <div class="gallery-pagination">
-          <button class="prev">←</button>
-          <span>1 / 6</span>
-          <button class="next">→</button>
+
+          <button type="button" class="gallery-prev">
+            ←
+          </button>
+
+          <div class="gallery-page">
+
+            <span class="gallery-current">
+              01
+            </span>
+
+            <span class="gallery-line">
+              /
+            </span>
+
+            <span class="gallery-total">
+              06
+            </span>
+
+          </div>
+
+          <button type="button" class="gallery-next">
+            →
+          </button>
+
         </div>
+
       </div>
+
     </section>
 
 
@@ -667,14 +783,17 @@
           <!-- 질문 1 -->
           <div class="ques">
             <p><span>Q1.</span> AI가 직접 진단하고 처방하나요?</p>
-            <button class="btn-answer"><img src="./assets/icons/icon_FAQ_arrow.png" alt="FAQ_arrow"></button>
+            <button class="btn-answer">
+              <img src="./assets/icons/icon_FAQ_arrow.png" alt="FAQ_arrow">
+            </button>
           </div>
 
           <!-- 답변 1 -->
           <div class="answer">
             <h3>아닙니다.</h3>
             <p>
-              VETNOVA의 AI 헬스케어 시스템은 반려동물의 건강 데이터를 분석하 여 <strong>“진료를 지원”</strong>하는 역할을 수행합니다.<br>
+              VETNOVA의 AI 헬스케어 시스템은 반려동물의 건강 데이터를 분석하여
+              <strong>"진료를 지원"</strong>하는 역할을 수행합니다.<br>
               최종 진단과 처방은 전문 의료진이 임상 경험과 분석 결과를 종합적으로 검토한 후 진행합니다.<br>
               즉, AI 기술과 수의학 전문성이 함께 더 정확한 진료 환경을 만들어갑니다.
             </p>
@@ -683,7 +802,9 @@
           <!-- 질문 2 -->
           <div class="ques">
             <p><span>Q2.</span> AI 바이오칩은 어떤 역할을 하나요?</p>
-            <button class="btn-answer"><img src="./assets/icons/icon_FAQ_arrow.png" alt="FAQ_arrow"></button>
+            <button class="btn-answer">
+              <img src="./assets/icons/icon_FAQ_arrow.png" alt="FAQ_arrow">
+            </button>
           </div>
 
           <!-- 답변 2 -->
@@ -698,7 +819,9 @@
           <!-- 질문 3 -->
           <div class="ques">
             <p><span>Q3.</span> 꼭 많은 검사를 받아야 하나요?</p>
-            <button class="btn-answer"><img src="./assets/icons/icon_FAQ_arrow.png" alt="FAQ_arrow"></button>
+            <button class="btn-answer">
+              <img src="./assets/icons/icon_FAQ_arrow.png" alt="FAQ_arrow">
+            </button>
           </div>
 
           <!-- 답변 3 -->
@@ -706,29 +829,27 @@
             <h3>아니요, 그렇지 않습니다.</h3>
             <p>
               VETNOVA는 반려동물의 상태와 건강 데이터를 종합적으로 확인하여 필요한 검사와 진료를 우선적으로 안내합니다.<br>
-              불필요한 검사를 늘리기보다, AI를 활용하여 현재 상태에 맞는 진료 계획을 수립하여<br>
-              전문 의료진과 함께 필요한 진료가 무엇인지 정확히 파악하고 처방까지 하며<br>
-              효율적인 진료가 이루어질 수 있도록 돕고 있습니다.
+              불필요한 검사를 늘리기보다 AI를 활용하여 현재 상태에 맞는 진료 계획을 수립합니다.
             </p>
           </div>
 
           <!-- 질문 4 -->
           <div class="ques">
             <p><span>Q4.</span> 정기 검진을 받고 있다면 AI 헬스케어가 꼭 필요한가요?</p>
-            <button class="btn-answer"><img src="./assets/icons/icon_FAQ_arrow.png" alt="FAQ_arrow"></button>
+            <button class="btn-answer">
+              <img src="./assets/icons/icon_FAQ_arrow.png" alt="FAQ_arrow">
+            </button>
+          </div>
+
+          <!-- 답변 4 -->
+          <div class="answer">
+            <h3>네, 그렇습니다.</h3>
+            <p>
+              AI 헬스케어는 정기 검진을 대체하는 것이 아니라,
+              일상 속 건강 변화를 지속적으로 확인하여 병원 방문 시 의료진의 진료를 지원합니다.
+            </p>
           </div>
         </div>
-
-        <!-- 답변 4 -->
-        <div class="answer">
-          <h3>네, 그렇습니다.</h3>
-          <p>
-            AI 헬스케어는 정기 검진을 대체하는 것이 아니라, 일상 속 건강 변화를 지속적으로 확인하고<br>
-            병원 방문 시, 의료진의 진료를 지원하는 역할을 합니다.<br>
-            정기 검진과 AI 데이터 분석이 함께 이루어질 때 보다 체계적인 건강 관리가 가능합니다.
-          </p>
-        </div>
-      </div>
     </section>
 
 
@@ -843,6 +964,12 @@
       </div>
     </div>
   </footer>
+
+
+  <!-- ====================================================== -->
+  <script src="./assets/js/jquery-4.0.0.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+
 
 </body>
 
